@@ -1,0 +1,25 @@
+.button-store{
+    padding:20px 0px;
+    text-align: center;
+    font-size:20px;
+    color:#fff;
+    background: #252c41;
+    display:inline-block;
+    margin:0px;
+    width:200px;
+    text-decoration: none;
+}
+
+.button-store.-second{
+    border:2px solid #fff;
+    background:none;
+    margin-right: 38px;
+}
+
+.button-store > button,
+.button-store > a {
+    font-size:inherit;
+    background: inherit;
+    border:none;
+    color:inherit;
+}

@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, "Roboto", sans-serif;
+}
+
+.header-store{
+    color:#fff;
+    overflow: hidden;
+    width:100%;
+    margin:0px auto;
+    margin-bottom:138px;
+}
+
+.header-store > .title{ /*  '>' mais performatico, ele procura só em filho direto no DOM*/
+    font-size:40px;
+    float:left;
+    text-transform: uppercase;
+}
+
+.header-store .navigation{
+    font-size:21px;
+    font-family:'Segoe UI', "Roboto", Geneva, Verdana, sans-serif;
+    float:right;
+}
+
+.header-store .action{
+    text-decoration:none;
+    font-size: inherit;
+    color: inherit;
+    margin-right:60px;
+}
+
+.header-store .action.-last{
+    margin-right:0px;
+}
