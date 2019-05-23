@@ -24,14 +24,14 @@ const inputCollabcode = (function () {
 
     }
 
-    module.render = () => {
+    module.render = ({placeholder = '', type = 'text'}) => {
         module._style()
 
+
         return `
-            <input class="input-collabcode" type="email"/>
+            <input class="input-collabcode" type="${type}" placeholder="${placeholder || ''}"/>
         `
     }
-
 
     return {
         render: module.render
